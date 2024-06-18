@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  background: url('https://st3.depositphotos.com/14521116/18297/i/1600/depositphotos_182970034-stock-photo-set-of-school-supplies-with.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container-fluid{
+  height: 7rem;
+  background-color: black;
+  background: linear-gradient(90deg, yellow, orange, white);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom:  2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ 
+}
+
+.manager {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.manager > div {
+  width: 45%;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
